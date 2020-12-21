@@ -3329,10 +3329,7 @@ msgstr ""
 msgid ""
 "The restart policy for this Pod.  Legal values [Always, OnFailure, Never]."
 msgstr ""
-"The restart policy for this Pod.  Legal values [Always, OnFailure, Never].  "
-"If set to 'Always' a deployment is created, if set to 'OnFailure' a job is "
-"created, if set to 'Never', a regular pod is created. For the latter two --"
-"replicas must be 1.  Default 'Always', for CronJobs `Never`."
+"The restart policy for this Pod.  Legal values [Always, OnFailure, Never]."
 
 # https://github.com/kubernetes/kubernetes/blob/master/pkg/kubectl/cmd/create_secret.go#L87
 #: pkg/kubectl/cmd/create_secret.go:88
