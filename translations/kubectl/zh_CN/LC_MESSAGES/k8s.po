@@ -9,12 +9,12 @@ msgstr ""
 "Project-Id-Version: gettext-go-examples-hello\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-12-12 20:03+0000\n"
-"PO-Revision-Date: 2017-11-11 19:01+0800\n"
+"PO-Revision-Date: 2020-12-21 21:24+0100\n"
 "Last-Translator: zhengjiajin <zhengjiajin@caicloud.io>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
@@ -2715,8 +2715,8 @@ msgstr "资源为 container 请求 requests . 例如, 'cpu=100m,memory=256Mi'. �
 
 # https://github.com/kubernetes/kubernetes/blob/master/pkg/kubectl/cmd/run.go#L128
 #: pkg/kubectl/cmd/run.go:131
-msgid "The restart policy for this Pod.  Legal values [Always, OnFailure, Never].  If set to 'Always' a deployment is created, if set to 'OnFailure' a job is created, if set to 'Never', a regular pod is created. For the latter two --replicas must be 1.  Default 'Always', for CronJobs `Never`."
-msgstr "这个 Pod 的 restart policy.  Legal values [Always, OnFailure, Never]. 如果设置为 'Always' 一个 deployment 被创建, 如果设置为 ’OnFailure' 一个 job 被创建, 如果设置为 'Never', 一个普通的 pod 被创建. 对于后面两个 --replicas 必须为 1.  默认 'Always', 为 CronJobs 设置为 `Never`."
+msgid "The restart policy for this Pod.  Legal values [Always, OnFailure, Never]."
+msgstr "这个 Pod 的 restart policy.  Legal values [Always, OnFailure, Never]."
 
 # https://github.com/kubernetes/kubernetes/blob/master/pkg/kubectl/cmd/create_secret.go#L87
 #: pkg/kubectl/cmd/create_secret.go:88
