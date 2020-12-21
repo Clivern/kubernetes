@@ -3326,11 +3326,7 @@ msgstr ""
 
 # https://github.com/kubernetes/kubernetes/blob/master/pkg/kubectl/cmd/run.go#L128
 #: pkg/kubectl/cmd/run.go:131
-msgid ""
-"The restart policy for this Pod.  Legal values [Always, OnFailure, Never].  "
-"If set to 'Always' a deployment is created, if set to 'OnFailure' a job is "
-"created, if set to 'Never', a regular pod is created. For the latter two --"
-"replicas must be 1.  Default 'Always', for CronJobs `Never`."
+msgid "The restart policy for this Pod.  Legal values [Always, OnFailure, Never]."
 msgstr ""
 "The restart policy for this Pod.  Legal values [Always, OnFailure, Never].  "
 "If set to 'Always' a deployment is created, if set to 'OnFailure' a job is "

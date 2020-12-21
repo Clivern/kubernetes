@@ -2940,15 +2940,8 @@ msgstr ""
 "configuração do servidor, como intervalos de limite."
 
 #: pkg/kubectl/cmd/run.go:131
-msgid ""
-"The restart policy for this Pod.  Legal values [Always, OnFailure, Never].  If set to 'Always' a "
-"deployment is created, if set to 'OnFailure' a job is created, if set to 'Never', a regular pod "
-"is created. For the latter two --replicas must be 1.  Default 'Always', for CronJobs `Never`."
-msgstr ""
-"A politica de restart para este Pod.  Possíveis valores [Always, OnFailure, Never].  Se "
-"configurado para 'Always' um deployment é criado, se configurado para 'OnFailure' um job é "
-"criado, se configurado para 'Never', um pod é criado. Para os dois últimos —replicas deve ser "
-"1.  Valor padrão 'Always', para CronJobs `Never`."
+msgid "The restart policy for this Pod.  Legal values [Always, OnFailure, Never]."
+msgstr "A politica de restart para este Pod.  Possíveis valores [Always, OnFailure, Never]."
 
 #: pkg/kubectl/cmd/create_secret.go:88
 msgid "The type of secret to create"
