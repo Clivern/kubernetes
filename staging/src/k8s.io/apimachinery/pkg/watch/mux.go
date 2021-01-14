@@ -35,7 +35,7 @@ const (
 // Buffer the incoming queue a little bit even though it should rarely ever accumulate
 // anything, just in case a few events are received in such a short window that
 // Broadcaster can't move them onto the watchers' queues fast enough.
-const incomingQueueLength = 25
+const incomingQueueLength = 100
 
 // Broadcaster distributes event notifications among any number of watchers. Every event
 // is delivered to every watcher.
